@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Studio</title>
+    <link rel="stylesheet" href="styles/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons/css/all/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <a href="#" class="logo">
+                    <img src="images/logo.svg" alt="Logo">
+                    <p>Sunset Studio</p>
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__links">
+                        <li class="header__link header__link--active"><a href="#">Home</a></li>
+                        <li class="header__link"><a href="./about.html">About us</a></li>
+                        <li class="header__link header__link--submenu">
+                            <a href="./dancecourses.html">
+                                Dance Courses
+                                <i class="fi fi-rr-angle-small-down"></i>
+                            </a>
+
+                            <nav class="header__submenu dance_courses">
+                                <h5 class="header__submenu-title">Popular Courses:</h5>
+                                <ul class="header__links"></ul>
+                            </nav>
+                        </li>
+                        <li class="header__link"><a href="./contacts.html">Contacts</a></li>
+                    </ul>
+                </nav>
+
+                <a href="my-bookings.html" class="header__cart primary-btn primary-btn--nohover">
+                    <i class="fi fi-rr-shopping-cart"></i>
+                    My Bookings
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="home">
+            <div class="home__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/backgrounds/home_img1.jpg" alt="background"></div>
+                    <div class="swiper-slide"><img src="images/backgrounds/home_img2.jpg" alt="background"></div>
+                    <div class="swiper-slide"><img src="images/backgrounds/home_img3.jpg" class="position-center" alt="background"></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="home__content">
+                    <h1 class="home__title">Feel the <br> Rhythm of Dance</h1>
+                    <p class="home__caption">Dive into the rhythm and passion of dance, where every movement tells a story and every style celebrates emotion.</p>
+                
+                    <a href="dancecourses.html" class="primary-btn">Book Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                <h2 class="section-title">Gallery</h2>
+
+                <div class="gallery__grid"></div>
+
+                <div class="gallery__pagination">
+                    <button class="gallery__pagination-btn prev" disabled><i class="fi fi-rr-angle-small-left"></i></button>
+                    <span class="gallery__page"></span>
+                    <button class="gallery__pagination-btn next"><i class="fi fi-rr-angle-small-right"></i></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__column">
+                    <a href="#" class="logo">
+                        <img src="images/logo.svg" alt="Logo">
+                        <p>Sunset Studio</p>
+                    </a>
+
+                    <p class="footer__caption">Your Journey Through <br> the World of Dance</p>
+                </div>
+
+                <div class="footer__column">
+                    <h3 class="footer__column-title">Pages</h3>
+
+                    <nav class="footer__nav">
+                        <ul class="footer__links">
+                            <li class="footer__link">
+                                <a href="#">
+                                    <i class="fi fi-rr-angle-small-right"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="dancecourses.html">
+                                    <i class="fi fi-rr-angle-small-right"></i>
+                                    Courses
+                                </a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="about.html">
+                                    <i class="fi fi-rr-angle-small-right"></i>
+                                    About us
+                                </a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="contacts.html">
+                                    <i class="fi fi-rr-angle-small-right"></i>
+                                    Contacts
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer__column">
+                    <h3 class="footer__column-title">Pages</h3>
+                
+                    <nav class="footer__nav">
+                        <ul class="footer__links">
+                            <li class="footer__link">
+                                <a href="#">
+                                    <i class="fi fi-rr-angle-small-right"></i>
+                                    Terms & Conditions
+                                </a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">
+                                    <i class="fi fi-rr-angle-small-right"></i>
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">
+                                    <i class="fi fi-rr-angle-small-right"></i>
+                                    FAQ
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer__column">
+                    <h3 class="footer__column-title">Contacts</h3>
+                
+                    <ul class="footer__contacts">
+                        <li class="footer__contacts-link">
+                            <p>
+                                <i class="fi fi-br-marker"></i>
+                                Italy, Florence
+                            </p>
+                        </li>
+
+                        <li class="footer__contacts-link">
+                            <a href="#">
+                                <i class="fi fi-rr-phone-call"></i>
+                                +123456789
+                            </a>
+                        </li>
+
+                        <li class="footer__contacts-link">
+                            <a href="#">
+                                <i class="fi fi-rr-envelope"></i>
+                                contact@lavita.com
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer__social">
+                        <li class="footer__social-link"><a href="#"><img src="images/social-media/instagram.svg" alt="instagram"></a></li>
+                        <li class="footer__social-link"><a href="#"><img src="images/social-media/telegram.svg" alt="telegram"></a></li>
+                        <div class="footer__social-link"><a href="#"><img src="images/social-media/facebook.svg" alt="facebook"></a></div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        Copyright © 2024 Sunset Studio. All Rights Reserved.
+    </div>
+
+    <div class="modal">
+        <div class="modal__content">
+            <span class="modal__close"><i class="fi fi-rr-cross-small"></i></span>
+    
+            <form class="registration__form">
+                <h2 class="registration__form-title">Register for Courses</h2>
+    
+                <label class="registration__form-field">
+                    Name:
+                    <input type="text" name="name" placeholder="Enter your full name" required>
+                </label>
+    
+                <label class="registration__form-field">
+                    E-mail:
+                    <input type="email" name="email" placeholder="Enter your E-mail" required>
+                </label>
+    
+                <button class="primary-btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+    <script src="js/main.js" type="module"></script>
+    <script src="js/home.js" type="module"></script>
+</body>
+</html>

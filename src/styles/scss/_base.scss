@@ -1,0 +1,160 @@
+@import "vars";
+@import "mixins";
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba($color: $black, $alpha: 0);
+}
+
+html,
+body {
+    font-size: $fontSizeRoot;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: $mainFontFamily;
+    position: relative;
+    min-width: 320px;
+    background-color: $white;
+    color: $black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    background: transparent;
+    font-family: inherit;
+    color: inherit;
+    appearance: none;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+}
+
+i[class^="fi"],
+i[class*=" fi-"] {
+    width: 1em;
+    height: 1em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo {
+    @include flex-center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: $black;
+
+    img {
+        width: 4rem;
+    }
+
+    p {
+        font-family: "Comfortaa", cursive;
+        letter-spacing: 0.5px;
+        font-weight: bold;
+        margin: 0;
+    }
+}
+section:not(.home) {
+    padding: 4rem 0;
+}
+
+.section-title {
+    font-family: "Comfortaa", cursive;
+    text-align: center;
+    color: $black;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 0 0 3rem 0;
+}
+
+.primary-btn {
+    @include flex-center;
+    position: relative;
+    background-color: $primary;
+    color: $black;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    line-height: 1;
+    gap: 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    width: fit-content;
+    border: 2px solid $primary;
+    &--white {
+        background-color: $white;
+    }
+    &:not(.primary-btn--nohover):hover {
+        background-color: $white;
+        color: $black;
+    }
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    &.open {
+        display: flex;
+    }
+    &__content {
+        background: $white;
+        padding: 1.5rem 1rem;
+        border-radius: 1rem;
+        max-width: 450px;
+        width: 100%;
+        text-align: center;
+    }
+    &__close {
+        @include flex-center;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        width: 3rem;
+        height: 3rem;
+        background-color: $white;
+        cursor: pointer;
+        font-size: 1.75rem;
+        border-radius: 50%;
+    }
+}

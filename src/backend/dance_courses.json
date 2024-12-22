@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "Salsa Night Workshop",
+    "description": "Dive into the rhythm of salsa and learn new moves in a fun and energetic environment. Perfect for all levels!",
+    "price": 120,
+    "image": "../images/dancecourses/salsa.jpg",
+    "rating": 5.0,
+    "date": "2024-12-25",
+    "totalSeats": 20,
+    "availableSeats": 5
+  },
+  {
+    "id": 2,
+    "title": "Contemporary Dance Class",
+    "description": "Explore the art of expression with a contemporary dance session led by professional instructors.",
+    "price": 50,
+    "image": "../images/dancecourses/contemp.jpg",
+    "rating": 4.9,
+    "date": "2024-12-26",
+    "totalSeats": 30,
+    "availableSeats": 0
+  },
+  {
+    "id": 3,
+    "title": "Ballet Basics for Beginners",
+    "description": "Step into the world of ballet with a graceful introduction to the fundamentals. No experience needed!",
+    "price": 30,
+    "image": "../images/dancecourses/ballet.jpg",
+    "rating": 4.9,
+    "date": "2024-12-27",
+    "totalSeats": 15,
+    "availableSeats": 7
+  },
+  {
+    "id": 4,
+    "title": "Hip-Hop Masterclass",
+    "description": "Unleash your energy with dynamic hip-hop choreography. Learn from the best and elevate your style!",
+    "price": 80,
+    "image": "../images/dancecourses/hip-hop.jpg",
+    "rating": 4.9,
+    "date": "2024-12-28",
+    "totalSeats": 25,
+    "availableSeats": 12
+  },
+  {
+    "id": 5,
+    "title": "Couples' Dance Evening",
+    "description": "Spend a romantic evening learning elegant ballroom moves with your partner.",
+    "price": 60,
+    "image": "../images/dancecourses/couple-dance.jpg",
+    "rating": 4.8,
+    "date": "2024-12-29",
+    "totalSeats": 40,
+    "availableSeats": 0
+  },
+  {
+    "id": 6,
+    "title": "Jazz Funk Fusion",
+    "description": "Blend the precision of jazz with the funk of street styles in this high-energy dance session.",
+    "price": 100,
+    "image": "../images/dancecourses/jazz-funk.jpg",
+    "rating": 4.8,
+    "date": "2024-12-30",
+    "totalSeats": 15,
+    "availableSeats": 8
+  },
+  {
+    "id": 7,
+    "title": "Kids' Dance Adventure",
+    "description": "A fun-filled dance class designed to spark creativity and joy in young movers.",
+    "price": 90,
+    "image": "../images/dancecourses/kids-dance.jpg",
+    "rating": 4.8,
+    "date": "2024-12-31",
+    "totalSeats": 20,
+    "availableSeats": 10
+  },
+  {
+    "id": 8,
+    "title": "Latin Dance Party",
+    "description": "Feel the heat of Latin rhythms as you learn to dance salsa, bachata.",
+    "price": 70,
+    "image": "../images/dancecourses/latin-dance.jpg",
+    "rating": 4.9,
+    "date": "2025-01-10",
+    "totalSeats": 30,
+    "availableSeats": 15
+  },
+  {
+    "id": 9,
+    "title": "Dance Fitness Bootcamp",
+    "description": "Get your heart pumping with a workout that combines dance and fitness.",
+    "price": 150,
+    "image": "../images/dancecourses/fitness-dance.jpg",
+    "rating": 4.4,
+    "date": "2025-01-11",
+    "totalSeats": 20,
+    "availableSeats": 5
+  }
+]
